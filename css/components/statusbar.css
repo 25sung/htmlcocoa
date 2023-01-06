@@ -20,5 +20,8 @@
     font-weight:lighter;
 }
 .statusbar__column:last-child i{
-    margin:0px 3px;
+    margin:0px 6px;
+}
+.statusbar__column i:first-child{
+    margin:0px 10px;
 }
