@@ -1,0 +1,39 @@
+.user-component{
+    justify-content: space-between;
+}
+.user-component,
+.user-component__column:first-child{
+    display:flex;
+    align-items:center;
+}
+.user-component__photo{
+    width:70px;
+    height:70px;
+    border-radius:30px;
+    margin-right:20px;
+}
+.user-component__photo--xl{
+    width:80px;
+    height:80px;
+    border-radius:35px;
+    margin-right:20px;
+}
+.user-component__photo--sm{
+    width:60px;
+    height:60px;
+    border-radius:25px;
+    margin-right:20px;
+}
+.user-component__name{
+    font-size:25px;
+    font-weight:600;
+}
+.user-component__name--notbold{
+    font-size:20px;
+    font-weight:400;
+}
+.user-component__subname{
+    font-size:15px;
+    opacity:.5;
+    margin-top:7px;
+}

@@ -1,0 +1,41 @@
+.nav__list {
+    display: flex;
+    justify-content:space-between;
+    background-color:#F9F9FA;
+    border-top:1px solid rgba(0, 0, 0, .1);
+    padding: 15px 40px ;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    box-sizing: border-box;
+}
+.nav__link {
+    color:#2F363E;
+    position:relative;
+}
+.nav__notification{
+    background-color:tomato;
+    width:20px;
+    height:20px;
+    border-radius:60px;
+    font-size:14px;
+    display:flex;
+    position:absolute;
+    color:white;
+    justify-content:center;
+    align-items:center;
+    left:15px;
+    bottom:8px;
+}
+.nav__notification-ellipsis{
+    background-color:tomato;
+    width:6px;
+    height:6px;
+    border-radius:3px;
+    display:flex;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    left:20px;
+    bottom:18px;
+}
